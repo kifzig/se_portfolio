@@ -5,8 +5,8 @@
   line-height: 20px;
   margin: 0 auto;
   font-family: "Inter", Arial, sans-serif;
-  background-color: #ffb703;
-  color: #000000;
+  background-image: linear-gradient(60deg, #ffb703, #fb8500);
+  color: #023047;
 }
 
 /* Unique color scheme from coolors:
