@@ -1,0 +1,29 @@
+.nav {
+  display: flex;
+  justify-content: flex-end;
+  align-items: center;
+  padding: 25px;
+  background-color: #8ecae6;
+}
+
+.nav__links {
+  display: flex;
+  column-gap: 20px;
+  list-style-type: none;
+  padding-left: 0;
+  align-items: center;
+  margin-top: 0;
+  margin-bottom: 0;
+  margin-right: 80px;
+}
+
+.nav__link {
+  color: #000000;
+  text-decoration: none;
+  font-weight: 500;
+}
+
+.nav__link:hover {
+  color: #2f80ed;
+  transition: color 0.5s ease-in;
+}
