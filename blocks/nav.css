@@ -3,7 +3,9 @@
   justify-content: flex-end;
   align-items: center;
   padding: 25px;
-  background-color: #d3d3d3;
+  background-color: #778899;
+  /*position: fixed;*/
+  width: 100%;
 }
 
 .nav__links {
@@ -18,7 +20,7 @@
 }
 
 .nav__link {
-  color: #000000;
+  color: #ffffff;
   text-decoration: none;
   font-weight: 600;
 }
