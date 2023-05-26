@@ -1,0 +1,20 @@
+.about-me__title {
+  margin-bottom: 50px;
+  margin-top: 50px;
+  font-size: 25px;
+  text-align: center;
+}
+
+.about-me__desc {
+  margin: 0 auto;
+  max-width: 600px;
+  background-color: goldenrod;
+  padding: 40px;
+  font-size: large;
+  color: #000;
+  line-height: 50px;
+  font-weight: 600px;
+  border-radius: 5px;
+  border: solid #000 1px;
+  margin-bottom: 50px;
+}

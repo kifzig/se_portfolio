@@ -3,7 +3,7 @@
   justify-content: flex-end;
   align-items: center;
   padding: 25px;
-  background-color: #8ecae6;
+  background-color: #d3d3d3;
 }
 
 .nav__links {
@@ -11,7 +11,7 @@
   column-gap: 20px;
   list-style-type: none;
   padding-left: 0;
-  align-items: center;
+  align-items: start;
   margin-top: 0;
   margin-bottom: 0;
   margin-right: 80px;
@@ -20,7 +20,7 @@
 .nav__link {
   color: #000000;
   text-decoration: none;
-  font-weight: 500;
+  font-weight: 600;
 }
 
 .nav__link:hover {

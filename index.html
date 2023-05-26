@@ -18,7 +18,7 @@
       href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;700&family=Noto+Serif:ital@0;1&display=swap"
       rel="stylesheet"
     />
-    <title>Kif - Portfolio</title>
+    <title>Kif Francis - Portfolio</title>
   </head>
   <body class="page">
     <header class="header">
@@ -27,6 +27,23 @@
           <li><a href="#project" class="nav__link">Projects</a></li>
           <li><a href="#aboutme" class="nav__link">About Me</a></li>
           <li><a href="#contact" class="nav__link">Contact</a></li>
+          <li>
+            <a
+              href="https://docs.google.com/document/d/1u8P8ZDmMpLN1kOkRXS6P6QOEvH0bDDP5bHoi3mg1-gQ/edit?usp=sharing"
+              class="nav__link"
+              >Resume</a
+            >
+          </li>
+          <li>
+            <a href="http://www.github.com/kifzig"
+              ><img src="./images/github.svg" alt="Github icon"
+            /></a>
+          </li>
+          <li>
+            <a href="https://www.linkedin.com/in/kiffany-francis/"
+              ><img src="./images/linkedin.svg" alt="LinkedIn icon"
+            /></a>
+          </li>
         </ul>
       </nav>
     </header>
@@ -34,46 +51,80 @@
       <section class="intro" id="intro">
         <h1 class="intro__title">Hello, I'm Kif Francis</h1>
         <img src="images/city.png" alt="icon swirl" class="logo" />
-        <p>
+        <p class="intro__caption">
           I'm an aspiring front-end developer based out of San Antonio, Texas.
         </p>
       </section>
       <section class="projects" id="projects">
-        <h2>Projects</h2>
-        <ul>
-          <li>
-            <a href="https://github.com/kifzig/se_project_aroundtheus"
-              >Around the U.S.</a
+        <h2 class="projects__title">Web Development Projects</h2>
+        <ul class="projects__card">
+          <li class="card">
+            <h3 class="card__title">Around the U.S.</h3>
+            <a
+              href="https://github.com/kifzig/se_project_aroundtheus"
+              class="card__link"
             >
+              <img
+                src="./images/project_around_the_us.jpg"
+                class="card__image"
+                alt="Preview of Around the U.S. web project"
+              />
+            </a>
+            <p class="card__desc">
+              This Instagram-like web page uses JavaScript, HTML/CSS including
+              BEM, Flexbox, and Grid, and makes use of OOP principles.
+            </p>
           </li>
-          <li>
-            <a href="https://kifzig.github.io/se_project_coffeeshop/"
-              >Practicum Coffee Shop</a
-            >
+          <li class="card">
+            <h3 class="card__title">Practicum Coffee Shop</h3>
+
+            <a href="https://kifzig.github.io/se_project_coffeeshop/">
+              <img
+                src="./images/project_practicum_coffee.JPG"
+                alt="Preview of Practicum Coffee website"
+                class="card__image"
+              />
+            </a>
+            <p class="card__desc">
+              This website features HTML/CSS with BEM, Flexbox, and animations.
+            </p>
           </li>
-          <li>
+
+          <li class="card">
+            <h3 class="card__title">Bootstrap Blog Template</h3>
+
             <a
               href="https://github.com/kifzig/day59_python_blog_bootstrap_flask"
-              >Sample Blog Using Flask, Bootstrap, and Python (not deployed)</a
             >
+              <img
+                src="./images/project_bootstrap_blog_api.JPG"
+                alt="Preview of Blog made with Bootstrap"
+                class="card__image"
+              />
+            </a>
+            <p class="card__desc">
+              Sample Blog Using Flask, Bootstrap, Python requests, and Jinja
+              (not deployed).
+            </p>
           </li>
         </ul>
       </section>
-      <section class="aboutme" id="aboutme">
-        <h2>About Me</h2>
-        <p>
-          I'm a former English teacher that has learned how to code in the last
-          few years: Python, Javascript, HTML/CSS, Bash, and more.
+      <section class="about-me" id="aboutme">
+        <h2 class="about-me__title">About Me</h2>
+        <p class="about-me__desc">
+          English teachers aren't what you typically think of as the coding-type, but I bring the same intensity and analytical eye that I brought
+          to the text and grading papers as I do when working on a coding project. In fact, I double majored in math and English while taking some computer science classes in college.
+          Nowadays at work, I like to use Python to automate routine tasks at work. I thrive when I'm learning new things, which is why I love coding, but also 
+          why I speak conversational French, play too many musical instruments, and now code! I finish the Practicum Software Engineering bootcamp in October 2023 where I'm learning the 
+        MERN stack and Google cloud. Previously, I completed with honors nucamp Backend, SQL, and DevOps with Python Bootcamp.</p>
         </p>
       </section>
       <section class="contact" id="contact">
         <h2>Contact</h2>
         <ul>
           <li>Email me at kif.zig@gmail.com</li>
-          <li><a href="http://www.github.com/kifzig">Github</a></li>
-          <li>
-            <a href="https://www.linkedin.com/in/kiffany-francis/">LinkedIn</a>
-          </li>
+          <li><a href="https://docs.google.com/document/d/1u8P8ZDmMpLN1kOkRXS6P6QOEvH0bDDP5bHoi3mg1-gQ/edit?usp=sharing">Download my resume</a></li>
+          <li><a href="https://www.linkedin.com/in/kiffany-francis/">Connect with me on LinkedIn</a></li>
         </ul>
       </section>
     </main>
