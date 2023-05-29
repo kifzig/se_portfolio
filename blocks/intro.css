@@ -3,6 +3,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
+  line-height: 35px;
 }
 
 .intro__title {

@@ -26,6 +26,10 @@
 }
 
 .nav__link:hover {
-  color: #2f80ed;
+  color: #000000;
   transition: color 0.5s ease-in;
+}
+
+.nav__icon {
+  fill: red;
 }
